@@ -316,6 +316,23 @@ nav>.nav-links{
 
 }
 
+@media screen and (max-width: 1024px) {
+    .rightside-details>h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .rightside-details>button{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1rem;
+    }
+    .leftside-banner>img{
+        width: 180%;
+        height: 100%;
+    }
+    
+    }
+
 /* NEW ARRIVAL BANNER SECTION */
 
 /* PRODUCT DISPLAY CATEGORIES */
