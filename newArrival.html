@@ -6,18 +6,23 @@
     <title>Fashion_plaza/newArrivals</title>
     <style>
       /* Some basic styling for the products */
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+      * {
+        font-family: "Playfair Display", serif;
+      }
       .product-card {
-        border: 1px solid #ccc;
-        margin: 10px;
-        width: 100%;
         display: flex;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
         flex-direction: column;
-        vertical-align: top;
+        border: 1px solid gray;
+        width: 50%;
+        height: 30%;
       }
       .product-card img {
-        width: 20rem;     
+        width: 20%;
+        border: 1px solid gray;
+        margin-top: 1rem;
       }
       .product-card p {
         text-align: center;
@@ -30,7 +35,7 @@
         margin-top: 0.5rem;
         margin-bottom: 1rem;
         padding: 0.5rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
         border-radius: 1rem;
         background: #fb4b4b;
         border: 1px solid lightgray;
@@ -39,14 +44,21 @@
         font-family: "Bodoni Moda", serif;
         font-weight: 700;
       }
-      .product-card>h1{
-        text-transform: uppercase;
+      .title {
+        font-size: 1rem;
+      }
+      #product-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
       }
     </style>
   </head>
   <body>
-    <div id="products-container" class="container mt-5">
-      <h2>New Arrivals</h2>
+
+    <h2>New Arrivals</h2>
+    <div id="products-container">
       <div id="product-list"></div>
     </div>
 
@@ -69,11 +81,13 @@
             if (product.category === `women's clothing`) {
               productCard.innerHTML = `
                   <img src='${product.image}' />
-                  <h1>${product.title}</h1>
+                  <h1 class="title">${product.title}</h1>
                     <h3><strong>Price:</strong> $${product.price}</h3>
                     <h3><strong>Category:</strong> ${product.category}</h3>
                     <p>${product.description}</p>
-                    <button>ADD TO CART</button>
+                    <a href="./cart.html">
+                      <button>ADD TO CART</button>
+                      </a>
                 `;
               productContainer.appendChild(productCard);
             }
