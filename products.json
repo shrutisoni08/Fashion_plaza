@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Eterna long dress black",
+        "price": 350.15,
+        "image": "./images/product-01.jpg",
+        "hearticonfill": "./icon-svg/icons8-heart-fill.png",
+        "hearticon": "./icon-svg/icons8-heart.png",
+        "description": "Cras in blandit semper eget interdum lacus ultrices ultricies malesuada magna nullam velit, elit scelerisque imperdiet natoque mi velit volutpat quis nibh sagittis orci sem orci sit feugiat mauris, auctor mauris malesuada lectus ut dictum massa turpis a quis tellus aliquam amet malesuada enim ac orci leo arcu justo blandit."
+    },
+    {
+        "id": 2,
+        "name": "Spark night party dress green",
+        "price": 150.88,
+        "image": "./images/product-02.jpg",
+        "hearticonfill": "./icon-svg/icons8-heart-fill.png",
+        "hearticon": "./icon-svg/icons8-heart.png",
+        "description": "Cras in blandit semper eget interdum lacus ultrices ultricies malesuada magna nullam velit, elit scelerisque imperdiet natoque mi velit volutpat quis nibh sagittis orci sem orci sit feugiat mauris, auctor mauris malesuada lectus ut dictum massa turpis a quis tellus aliquam amet malesuada enim ac orci leo arcu justo blandit."
+    },
+    {
+        "id": 3,
+        "name": "Cute meena dress maroon",
+        "price": 145.45,
+        "image": "./images/product-03.jpg",
+        "hearticonfill": "./icon-svg/icons8-heart-fill.png",
+        "hearticon": "./icon-svg/icons8-heart.png",
+        "description": "Cras in blandit semper eget interdum lacus ultrices ultricies malesuada magna nullam velit, elit scelerisque imperdiet natoque mi velit volutpat quis nibh sagittis orci sem orci sit feugiat mauris, auctor mauris malesuada lectus ut dictum massa turpis a quis tellus aliquam amet malesuada enim ac orci leo arcu justo blandit."
+    },
+    {
+        "id": 4,
+        "name": "Eterna long dress blue",
+        "price": 180.55,
+        "image": "./images/product-04.jpg",
+        "hearticonfill": "./icon-svg/icons8-heart-fill.png",
+        "hearticon": "./icon-svg/icons8-heart.png",
+        "description": "Cras in blandit semper eget interdum lacus ultrices ultricies malesuada magna nullam velit, elit scelerisque imperdiet natoque mi velit volutpat quis nibh sagittis orci sem orci sit feugiat mauris, auctor mauris malesuada lectus ut dictum massa turpis a quis tellus aliquam amet malesuada enim ac orci leo arcu justo blandit."
+    },
+    {
+        "id": 5,
+        "name": "Spark night party dress green",
+        "price": 150.55,
+        "image": "./images/product-05.jpg",
+        "hearticonfill": "./icon-svg/icons8-heart-fill.png",
+        "hearticon": "./icon-svg/icons8-heart.png",
+        "description": "Cras in blandit semper eget interdum lacus ultrices ultricies malesuada magna nullam velit, elit scelerisque imperdiet natoque mi velit volutpat quis nibh sagittis orci sem orci sit feugiat mauris, auctor mauris malesuada lectus ut dictum massa turpis a quis tellus aliquam amet malesuada enim ac orci leo arcu justo blandit."
+    },
+    {
+        "id": 6,
+        "name": "Black dress with butterfly sleeves",
+        "price": 200.89,
+        "image": "./images/product-06.jpg",
+        "hearticonfill": "./icon-svg/icons8-heart-fill.png",
+        "hearticon": "./icon-svg/icons8-heart.png",
+        "description": "Cras in blandit semper eget interdum lacus ultrices ultricies malesuada magna nullam velit, elit scelerisque imperdiet natoque mi velit volutpat quis nibh sagittis orci sem orci sit feugiat mauris, auctor mauris malesuada lectus ut dictum massa turpis a quis tellus aliquam amet malesuada enim ac orci leo arcu justo blandit."
+    }
+]
